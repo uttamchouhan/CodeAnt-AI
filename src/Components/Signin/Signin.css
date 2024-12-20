@@ -1,0 +1,142 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+}
+
+.signin-container {
+    display: flex;
+    height: 100%;
+}
+
+.col-1, .col-2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-1 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.col-2 {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container{
+    border: 1px solid #f4f4f4;
+    background-color: #ffffff;
+    padding: 36px 24px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.logo-container-content .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-bottom: 20px;
+}
+
+.logo span{
+    font-size: 30px;    
+}
+
+.sigin-content span{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f4f4f4;
+}
+
+.loginwith-social-link{
+    border-bottom: 1px solid #cac7c7;
+    padding: 20px 0;
+}
+
+.button-content button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.button-content button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.social-login-section {
+    margin-top: 20px;
+}
+
+.row{
+    width: 100%;
+    max-width: 435px;
+    margin: 0 auto;
+}
+
+.sass-content, .self-hosted-content {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-login{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+@media (max-width:732px) {
+    .sigin-content span{
+        font-size: 18px;
+    }
+    .footer-login span{
+        font-size: 10px;
+    }
+    .button-content button{
+        padding: 6px 20px;
+    }
+}
+
+@media (min-width:732px) and (max-width:900px) {
+    .sigin-content span {
+        font-size: 25px; 
+    }
+}
